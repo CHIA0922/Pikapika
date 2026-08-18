@@ -108,3 +108,51 @@ stroke: #555;
     color: #000;
 }
 
+/* Btn Filter */
+
+.container-filter{
+    display: flex;
+}
+
+.icon-filter{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    
+    margin-bottom: 20px;
+    cursor: pointer;
+
+}
+
+.icon-filter .icon{
+    width: 30px;
+    height: 30px;
+    stroke: #555;
+}
+
+/* Card List Pokemon */
+
+.card-list-pokemon{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.card-pokemon{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.card-img{
+    background-color: #f2f2f2;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    
+}
+
+.card-img{
+    width: 100%;
+
+}
